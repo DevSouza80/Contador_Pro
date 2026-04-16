@@ -92,6 +92,12 @@ section.hero-bg .flex-position {
     margin: 0 auto;
 }
 
+#aviso-limite {
+    color:var(--color-eight);
+    font-size:1rem;
+    font-family:var(--font-poppins);
+}
+
 .input-textarea textarea {
     width: 100%;
     color:var(--color-tree);
