@@ -5,13 +5,32 @@ const contadorFrases = document.getElementById("contador-frases");
 
 const tempoElemento = document.getElementById("tempo-leitura");
 const excluirEspacos = document.getElementById("excluir-espacos");
+const limiteCheckbox = document.getElementById("limite-caracteres");
+const avisoLimite = document.getElementById("aviso-limite");
 
+//Eventos
 textArea.addEventListener("input", atualizar);
 excluirEspacos.addEventListener("change", atualizar);
 
+// Função Principal
 function atualizar(){
-    const texto = textArea.value;
-  
+    let limite = 100;
+    let texto = textArea.value;
+    
+    //LIMITE DE CARACTERES
+    if(limiteCheckbox.checked &&  texto.length > limite) {
+        texto = texto.substring(0, limite);
+        textArea.value = texto;
+    }
+
+    // AVISO DE LIMITE
+    if(limiteCheckbox.checked && texto.length >= limite) {
+      avisoLimite.textContent = `Limite de ${limite} caracteres atingido!`;
+    } else {
+        avisoLimite.textContent = "";
+    }
+
+    //CONTAGEM DE CARACTERES
     let caracteres;
 
     if(excluirEspacos.checked) {
@@ -20,13 +39,15 @@ function atualizar(){
         caracteres = texto.length;
     }
 
-
+   // PALAVRAS
    const palavras = texto.trim() === "" ? 0 : texto.trim().split(/\s+/).length;
+   //FRASES
    const frases = texto.trim() === "" ? 0 : texto.split(/[.!?]+/).filter(f => f.trim() !== "").length;
-
+    // TEMPO DE LEITURA
    const tempoLeitura = palavras / 200;
    const minutos = Math.ceil(tempoLeitura);
 
+    //ATUALIZA TELA
     contadorCaracteres.textContent = caracteres;
     contadorPalavras.textContent = palavras;
     contadorFrases.textContent = frases;
