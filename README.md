@@ -20,6 +20,8 @@ Este projeto foi construído com foco em aprendizado progressivo e boas prática
 
 ---
 
+##Link do projeto  🚀
+https://velvety-toffee-5856b2.netlify.app/
 ## 🎯 Funcionalidades
 
 ### 🔢 Contador de Caracteres
