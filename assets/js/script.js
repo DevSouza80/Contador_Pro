@@ -7,14 +7,36 @@ const tempoElemento = document.getElementById("tempo-leitura");
 const excluirEspacos = document.getElementById("excluir-espacos");
 const limiteCheckbox = document.getElementById("limite-caracteres");
 const avisoLimite = document.getElementById("aviso-limite");
+const botaoTema = document.getElementById("click-moon");
+const icone = document.getElementById("img")
+
+// Salvar no localStorage
+if(localStorage.getItem("tema") === "dark") {
+    document.body.classList.add("dark");
+    icone.src = "./assets/img/sun.png";
+}
 
 //Eventos
 textArea.addEventListener("input", atualizar);
 excluirEspacos.addEventListener("change", atualizar);
 
+// Tema Escuro
+botaoTema.addEventListener("click",function(){
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        icone.src = "./assets/img/sun.png";
+         localStorage.setItem("tema", "dark");
+    } else {
+        icone.src = "./assets/img/moon.png";
+         localStorage.setItem("tema", "light");
+    }
+});
+
+
 // Função Principal
 function atualizar(){
-    let limite = 100;
+    let limite = 280;
     let texto = textArea.value;
     
     //LIMITE DE CARACTERES
