@@ -189,66 +189,21 @@ body.dark .subtitle-al > h2 {
     text-align: left;
 }
 
-body.dark .letter-1 p {
+body.dark .letter p {
     color:var(--color-ten);
     font-size: 1.4rem;
     font-family:var(--font-poppins);
 }
 
-body.dark  .percentage-one p {
-    color:var(--color-ten);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-body.dark .percentage-two p {
+body.dark  .percentage p {
     color:var(--color-ten);
     font-size: 1.3rem;
     font-family:var(--font-poppins);
 }
 
 
-body.dark .letter-2 p {
-    color:var(--color-ten);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
 
-body.dark .letter-3 p {
-    color:var(--color-ten);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
 
-body.dark .percentage-three p {
-    color:var(--color-ten);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-body.dark .letter-4 p {
-    color:var(--color-ten);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-body.dark .percentage-four p {
-    color:var(--color-ten);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-body.dark .letter-5 p {
-    color:var(--color-ten);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-body.dark .percentage-five p {
-    color:var(--color-ten);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
 
 /***/
 
@@ -394,6 +349,16 @@ body.dark .percentage-five p {
     margin: 0 auto;
 }
 
+#densidade-container {
+     max-width: 930px;
+    margin: 0 auto;
+}
+
+#sem-texto {
+    color:var(--color-eight);
+    font-size: 1rem;
+    font-family:var(--font-poppins);
+}
 .subtitle-al > h2 {
     color:var(--color-tree);
     font-size:2rem;
@@ -424,156 +389,17 @@ body.dark .percentage-five p {
     padding: 10px 0;
 }
 
-.letter-1 p {
+.letter p {
     color:var(--color-tree);
     font-size: 1.4rem;
     font-family:var(--font-poppins);
 }
 
-.percentage-one p {
+.percentage p {
     color:var(--color-tree);
     font-size: 1.3rem;
     font-family:var(--font-poppins);
 }
 
-.sub-letter2 {
-    display: flex;
-    align-items: center;
-    gap:0.4rem;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.bar-size2 {
-    width: 100%;
-    height:15px;
-    border-radius:20px;
-    max-width: 800px;
-    background-color:var(--color-four);
-}
-
-.color-size2 {
-  width:105px;
-  height:15px;
-  border-radius: 20px;
-  background-color:var(--color-seven);
-}
-
-.letter-2 p {
-    color:var(--color-tree);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-.percentage-two p {
-    color:var(--color-tree);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-.sub-letter3 {
-    display: flex;
-    align-items: center;
-    gap:0.4rem;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.bar-size3 {
-    width: 100%;
-    height:15px;
-    border-radius:20px;
-    max-width: 800px;
-    background-color:var(--color-four);
-}
-
-.color-size3 {
-  width:85px;
-  height:15px;
-  border-radius: 20px;
-  background-color:var(--color-seven);
-}
-
-.letter-3 p {
-    color:var(--color-tree);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-.percentage-three p {
-    color:var(--color-tree);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-.sub-letter4 {
-    display: flex;
-    align-items: center;
-    gap:0.4rem;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.bar-size4 {
-    width: 100%;
-    height:15px;
-    border-radius:20px;
-    max-width: 800px;
-    background-color:var(--color-four);
-}
-
-.color-size4 {
-  width:60px;
-  height:15px;
-  border-radius: 20px;
-  background-color:var(--color-seven);
-}
-
-.letter-4 p {
-    color:var(--color-tree);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-.percentage-four p {
-    color:var(--color-tree);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
-
-.sub-letter5 {
-    display: flex;
-    align-items: center;
-    gap:0.4rem;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.bar-size5 {
-    width: 100%;
-    height:15px;
-    border-radius:20px;
-    max-width: 800px;
-    background-color:var(--color-four);
-}
-
-.color-size5 {
-  width:60px;
-  height:15px;
-  border-radius: 20px;
-  background-color:var(--color-seven);
-}
-
-.letter-5 p {
-    color:var(--color-tree);
-    font-size: 1.4rem;
-    font-family:var(--font-poppins);
-}
-
-.percentage-five p {
-    color:var(--color-tree);
-    font-size: 1.3rem;
-    font-family:var(--font-poppins);
-}
 
 /***/
