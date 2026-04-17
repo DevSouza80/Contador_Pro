@@ -76,6 +76,182 @@ section.hero-bg .flex-position {
     transform: translate(-50%,-50%);
 }
 
+/* Dark mode */
+body.dark {
+  background-color:var(--color-tree);
+  color:var(--color-ten);
+}
+
+body.dark .menu-navigation {
+    background:var(--color-tree);
+}
+
+body.dark .logo-brands > h2 {
+    color:var(--color-one);
+    font-family:var(--font-saira);
+    font-size: 1.8rem;
+} 
+
+
+body.dark .hero-bg {
+    background:var(--color-tree);
+}
+
+body.dark .title-bg > h1 {
+    color:var(--color-ten);
+    font-family:var(--font-saira);
+    font-size:3.4rem;
+}
+
+
+body.dark textarea {
+    background:var(--color-eleven);
+    color:var(--color-ten);
+    border: 1px solid var(--color-twelve);
+}
+
+body.dark #label-one {
+    color:var(--color-ten);
+    font-size:0.8rem;
+    font-weight:600;
+    font-family:var(--font-saira);
+}
+
+body.dark #label-two {
+    color:var(--color-ten);
+    font-size:0.8rem;
+    font-weight:600;
+    font-family:var(--font-saira);
+}
+
+body.dark .temp-read p {
+    color:var(--color-ten);
+     font-size:0.8rem;
+    font-weight:600;
+    font-family:var(--font-saira);
+}
+
+
+
+body.dark .card-fil {
+    width:230px;
+    height:200px;
+    position: relative;
+    border-radius:10px;
+    background-color:var(--color-twelve);
+}
+
+
+ body.dark .number-total h2 {
+    color:var(--color-ten);
+    font-size:3rem;
+    font-family:var(--font-saira);
+}
+
+ body.dark .number-total p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-weight:600;
+    font-family:var(--font-poppins);
+}
+
+ body.dark  .word-count h2 {
+    color:var(--color-ten);
+    font-size:3rem;
+    font-family:var(--font-saira);
+}
+
+  body.dark .word-count p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-weight:600;
+    font-family:var(--font-poppins);
+}
+
+
+body.dark  .sentence-count h2 {
+    color:var(--color-ten);
+    font-size:3rem;
+    font-family:var(--font-saira);
+}
+
+body.dark .sentence-count p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-weight:600;
+    font-family:var(--font-poppins);
+}
+
+body.dark .subtitle-al > h2 {
+    color:var(--color-ten);
+    font-size:2rem;
+    font-family:var(--font-saira);
+    text-align: left;
+}
+
+body.dark .letter-1 p {
+    color:var(--color-ten);
+    font-size: 1.4rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark  .percentage-one p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .percentage-two p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-family:var(--font-poppins);
+}
+
+
+body.dark .letter-2 p {
+    color:var(--color-ten);
+    font-size: 1.4rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .letter-3 p {
+    color:var(--color-ten);
+    font-size: 1.4rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .percentage-three p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .letter-4 p {
+    color:var(--color-ten);
+    font-size: 1.4rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .percentage-four p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .letter-5 p {
+    color:var(--color-ten);
+    font-size: 1.4rem;
+    font-family:var(--font-poppins);
+}
+
+body.dark .percentage-five p {
+    color:var(--color-ten);
+    font-size: 1.3rem;
+    font-family:var(--font-poppins);
+}
+
+/***/
+
 .title-bg {
     text-align: center;
     padding: 40px 0;
